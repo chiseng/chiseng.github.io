@@ -1,0 +1,184 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="styles/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">	
+	   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+		<link href="styles/tiny-slider.css" rel="stylesheet">
+		<link href="styles/styles.css" rel="stylesheet">
+		<title>BA Church Camp 24</title>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+          <div class="container">
+              <a class="navbar-brand" href="index.html"><img src="assets/img/cropped-BA-logo-master.png" alt="..." /></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  Menu
+                  <i class="fas fa-bars ms-1"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                      <li class="nav-item dropdown">
+                          <div class="dropdown ">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Registration
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="booking_rooms.html">Rooms</a>
+                                  <a class="dropdown-item" href="#">Coach</a>
+                                </div>
+                          </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <div class="dropdown ">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Trip Info
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Subsidies</a>
+                                  <a class="dropdown-item" href="#">Transport</a>
+                                </div>
+                          </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#about">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Checkout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+  <section class="page-section bg-light" id="info">
+		<div class="untree_co-section">
+		    <div class="container">
+		      <div class="row-mb-5">
+		        <div class="col-md-12" style="padding-bottom: 7rem;">
+		          <h2 class="h3 mb-3 text-black">Personal Details</h2>
+		          <div class="p-3 p-lg-5 border bg-white" style="border-radius: 20px;">
+		          	<p class="text-muted">Attendee 1<p>
+		            <div class="form-group row" style="padding-bottom: 1rem;">
+		            	<div class="col-md-6">
+		                <label for="c_fname" class="text-black">Full Name (As in Passport)<span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_fname" name="c_fname">
+		              </div>
+		            </div>
+
+		            <div class="form-group row" style="padding-bottom: 1rem;">
+		              <div class="col-md-6">
+		                <label for="c_passportnumber" class="text-black">NRIC </label>
+		                <input type="text" class="form-control" id="c_passportnumber" name="c_passportnumber">
+		              </div>
+		            </div>
+
+		            <div class="form-group row" style="padding-bottom: 1rem;">
+		              <div class="col-md-6">
+		                <label for="c_passportnumber" class="text-black">Passport Number </label>
+		                <input type="text" class="form-control" id="c_passportnumber" name="c_passportnumber">
+		              </div>
+		            </div>
+
+		            <div class="form-group row" style="padding-bottom: 1rem;">
+		              <div class="col-md-6">
+		                <label for="c_address" class="text-black">Email Address <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_address" name="c_address">
+
+		                <label for="c_ship_different_address" class="text-black" data-bs-toggle="collapse" href="#ship_different_address" role="button" aria-expanded="false" aria-controls="ship_different_address"><input type="checkbox" value="1" id="c_ship_different_address"> Only use this email address</label>
+		              </div>
+
+		            </div>
+
+
+		            <div class="form-group" style="padding-bottom: 3rem;">
+		              <label for="c_order_notes" class="text-black">Notes</label>
+		              <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5" class="form-control" placeholder="Special Requests Here..."></textarea>
+		            </div>
+
+
+		            <div class="form-group">
+	                <div class="input-group w-50 couponcode-wrap">
+	                  <input type="text" class="form-control me-2" id="c_code" placeholder="Coupon Code" aria-label="Coupon Code" aria-describedby="button-addon2">
+	                  <div class="input-group-append">
+	                    <button class="btn_checkout btn-black btn-sm btn-block" type="button" id="button-addon2">Apply</button>
+	                  </div>
+	                </div>
+	              </div>
+
+		          </div>
+		        </div>
+
+		          <div class="row mb-5">
+		            <div class="col-md-6">
+		              <h2 class="h3 mb-3 text-black">Your Order</h2>
+		              <div class="p-3 p-lg-5 border bg-white" style="border-radius: 20px;">
+		                <table class="table site-block-order-table mb-5">
+		                  <thead>
+		                    <th>Product</th>
+		                    <th>Total</th>
+		                  </thead>
+		                  <tbody>
+		                    <tr>
+		                      <td>Deluxe Room <strong class="mx-2">
+		                      <td>$800.00</td>
+		                    </tr>
+		                    <tr>
+		                      <td class="text-black font-weight-bold"><strong>Cart Subtotal</strong></td>
+		                      <td class="text-black">$800.00</td>
+		                    </tr>
+		                    <tr>
+		                      <td class="text-black font-weight-bold"><strong>Order Total</strong></td>
+		                      <td class="text-black font-weight-bold"><strong>$800.00</strong></td>
+		                    </tr>
+		                  </tbody>
+		                </table>
+
+		                <div class="border p-3 mb-3">
+		                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank" style="color:#000; text-decoration: none;">PayNow</a></h3>
+
+		                  <div class="collapse" id="collapsebank">
+		                    <div class="py-2">
+		                      <p class="mb-0">Scan the QR code that will be reflected after the checkout page.</p>
+		                    </div>
+		                  </div>
+		                </div>
+
+
+
+		                <div class="form-group">
+		                  <button class="btn_checkout btn-black btn-lg py-3 btn-block shadow-none" onclick="window.location='thankyou.html'">Place Order</button>
+		                </div>
+
+		              </div>
+		            </div>
+		          </div>
+
+
+
+		      </div>
+		      <!-- </form> -->
+		    </div>
+		  </div>
+		</section>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+
+</html>
